@@ -62,5 +62,6 @@ model category {
 
 <img width="978" height="345" alt="image" src="https://github.com/user-attachments/assets/3906bafb-e653-4ebf-b9d9-998f60df9ffc" />
 
-<img width="1280" height="692" alt="image" src="https://github.com/user-attachments/assets/62634102-fcb8-45d8-a251-04e260393f8f" />
+<img width="1920" height="905" alt="image" src="https://github.com/user-attachments/assets/29dc77af-36b6-4cff-b907-f6af4611f860" />
+
 
