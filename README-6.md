@@ -44,15 +44,23 @@ model dish {
 
 ```prisma
 model category {
-  category_id Int    @id @default(autoincrement())
-  name        String @unique
+  category_id Int      @id @default(autoincrement())
+  name        String   @db.VarChar(100)
+  dish        dish[]
   // поле description видалено
 }
-
 ```
 
 **3. Перевірка та результати**
 
-Усі три міграції були успішно згенеровані та автоматично застосовані до моєї бази даних PostgreSQL за допомогою команди `npx prisma migrate dev`. Prisma створила відповідні SQL-файли в каталозі `prisma/migrations/`, які фіксують повну історію змін схеми.
+Оскільки була вже створена стара база довдеться задля роботи її скинути.
+<img width="981" height="799" alt="image" src="https://github.com/user-attachments/assets/9332bffa-282e-4d84-9473-680f2f7d4d18" />
 
-Для перевірки результатів я запустив вбудований веб-інтерфейс Prisma Studio за допомогою команди `npx prisma studio`, де успішно протестував відображення нових полів і таблиць, а також можливість вставлення даних. Скріншоти терміналу та інтерфейсу додано нижче.
+<img width="982" height="800" alt="image" src="https://github.com/user-attachments/assets/924b3e74-614b-448a-9f80-f597fb8227ec" />
+
+<img width="981" height="344" alt="image" src="https://github.com/user-attachments/assets/7b1c1c3d-e671-469a-9ff3-335af86dc4a5" />
+
+<img width="978" height="345" alt="image" src="https://github.com/user-attachments/assets/3906bafb-e653-4ebf-b9d9-998f60df9ffc" />
+
+<img width="1280" height="692" alt="image" src="https://github.com/user-attachments/assets/62634102-fcb8-45d8-a251-04e260393f8f" />
+
