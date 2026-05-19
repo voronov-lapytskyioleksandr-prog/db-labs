@@ -1,6 +1,6 @@
 ### Лабараторні роботи 
 
-**.md файли від 1 до 5 по черзі:**
+**.md файли від 1 до 6 по черзі:**
 
 Лабараторна 1: https://github.com/voronov-lapytskyioleksandr-prog/db-labs/blob/main/README-1.md
 
